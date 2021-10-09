@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import Header from './components/Header';
 import Body from './components/Body';
+import About from './components/About';
+import Slide from './components/Slide';
 import Footer from './components/Footer';
 
 import reportWebVitals from './reportWebVitals';
@@ -12,6 +14,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Body />
+    <About />
+    <Slide />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
