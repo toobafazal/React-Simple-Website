@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mynav{
+  background-color: rgb(172, 54, 119);
+}
+.mynav a{
+  color: #fff;
+
+}
+.headline{
+  color: rgb(172, 54, 119) ;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.headline .line{
+  border-top: 5px ridge rgba(218, 165, 32, 0.836);
+  border-bottom: 5px ridge rgba(218, 165, 32, 0.836);
+  padding: 0px 35px;
+}
+
+.mynav li{
+  display: inline;
+  margin: 20px;
+  
+
+}
+li{
+  list-style-type: none;
+}
+.vision h2{
+  font-size: 30px;
+  text-align: center;
+}
+.vision p{
+  font-size: 15px;
+  text-align: center;
+
+} 
+.footer{
+  display: inline;
+} 
+#footer{
+  background-color: #fff;
+}
+#footer .footer-hr{
+  width: 125px;
+  height: 5px;
+}
+#footer .text-center{
+  color: rgb(255, 255, 255) !important;
+  background-color:  rgb(172, 54, 119) !important;
+  height: 10vh !important;
+  text-align: center;
+}
+#footer .bg-success{
+  background-color:  rgb(172, 54, 119) !important;
+
+}
+#footer a{
+  color: #111 !important;
+}
+#footer .footer-copyright{
+  width:100% !important;
+}
+#footer .myfooter i{
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+#footer .text-light{
+  color: #fff !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
